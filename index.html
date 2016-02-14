@@ -1,35 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-	 <meta charset="UTF-8">
-	 <title>Shopping List</title>
-	 <link rel="sytlesheet" href="css/normalize.css">
-	 <link rel="stylesheet" href="css/font-awesome.min.css">
-	 <link rel="stylesheet" href="css/main.css">
-	 <script src="http://code.jquery.com/jquery.min.js"></script>
-	 <script src="js/app.js"></script>
- </head>
- <body>
-  <div class="main container">
-    <div class="inner-container">
-      <div class="shopping-content">
-      	<span><i class="fa fa-shopping-basket"></i></span>
-      		<h2 class="title">Shopping List</h2>
-      	<!--List-->	
-      	<div class="script-content">
-      		<ul>
-      			<li></li>
-      		</ul>
-      		<div id="newButton">
-      		 <button id="showForm">New</button>
-      		</div>
-      		 <form id="newForm">
-      		 	<input type="text" id="formDescription" placeholder="Add item here..."/>
-      		 	<input type="submit" id="formSubmit" value="add"/>
-      		 </form>
-      	</div>
-	 </div>
+  <head>
+    <meta charset="UTF-8">
+    <title>Shopping List</title>
+    <link rel="sytlesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="js/app.js"></script>
+  </head>
+  <body>
+    <div class="main container">
+      <div class="inner-container">
+        <div class="shopping-content">
+          <span><i class="fa fa-shopping-basket"></i></span>
+          <h2 class="title">Shopping List</h2>
+          <!--List--> 
+          <div class="script-content">
+            <form id="newForm">
+              <input type="text" id="itemInput" placeholder="Add item here..."/>
+              <input type="submit" id="formSubmit" value="add"/>
+            </form>
+            <ul id="list">
+<!-- Items will go here -->
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
   </body>
-  </html>	
+</html> 
