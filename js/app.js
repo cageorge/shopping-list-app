@@ -4,7 +4,7 @@ $(document).ready(function() {
     var newItem = $("#itemInput").val();
     $("#itemInput").val("");
     $("#list").append("<li><input type='checkbox'/>" + newItem + 
-      "<button class='remove'>remove</button></li>");
+      "<button class='remove'>x</button></li>");
     return false;
   })
 

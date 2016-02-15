@@ -26,7 +26,7 @@ body {
  text-align: center;
 }
 
-#showForm, #formSubmit {
+#showForm, #formSubmit, #itemInput {
  font-size: 30px;
  line-height: 35px;
  text-align: center;
@@ -46,7 +46,17 @@ body {
 }
 
 
-
+/*Font Awesome Icon Section*/
+.fa-shopping-basket{
+  font-size: 50px;
+  text-align: center;
+  margin:auto;
+  display: block;
+  color: #85efc7;
+  border: 7px solid #85efc7;
+  border-radius: 80px;
+  margin-top: 10px;
+}
 
 
 /*.shopping-content {
@@ -57,19 +67,26 @@ body {
   position: relative;
   z-index: 1;*/
 
-.reveal .fa {
-  font-family: 'FontAwesome';
-  font-style: normal;
-}
 
-.fa{
-  text-align: center;
-  color:#d2f4dc;
-}
 
 #list {
   list-style-type: none;
+
 }
 
+.remove {
+  color:#E24B27;
+  border:solid 1px #E26a59;
+  background-color: #dd7372;
+  font-size: 30px;
+  line-height: 20px;
+}
 
+li {
+  color:gray;
+  font-size: 30px;
+  line-height: 20px;
+  display: block;
+
+}
 
