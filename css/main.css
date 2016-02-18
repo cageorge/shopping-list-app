@@ -4,7 +4,7 @@ body {
 
 .main {
   background-image:url('../images/grid.png');
-  border:solid 2px #85efc7;
+  border: solid 2px #85efc7;
   margin-top: 210px;
   margin-right: 10%;
   margin-left: 10%;
@@ -13,6 +13,7 @@ body {
   position: relative;
   z-index: 1;
 }
+
 .inner-container{
   background-color: #d2f4dc;
   margin-top: -100px;
@@ -26,6 +27,7 @@ body {
   /*position: relative;
   z-index: 1;*/
 }
+
 .title, #showForm, #formSubmit {
   background-color: #f4e369;
   color: #e3ca33;
@@ -35,7 +37,7 @@ body {
  font-size: 40px;
  line-height: 45px;
  text-align: center;
- letter-spacing:5px;
+ letter-spacing: 5px;
 }
 
 #showForm, #formSubmit, #itemInput {
@@ -44,12 +46,9 @@ body {
  text-align: center;
 }
 
-.remove, .title, #showForm, #formSubmit, li 
-{
+.remove, .title, #showForm, #formSubmit, li {
   font-family: 'Permanent Marker', cursive;
 }
-
-
 
 /*Font Awesome Icon Section*/
 .fa-shopping-basket{
@@ -63,7 +62,6 @@ body {
   margin-top: 10px;
 }
 
-
 /*.shopping-content {
   background-color: white;
   width: 750px;
@@ -72,40 +70,38 @@ body {
   position: relative;
   z-index: 1;*/
 
-
-
 #list {
   list-style-type: none;
-
 }
 
 .remove {
-  color:#E24B27;
+  color: #E24B27;
   border:solid 1px #E26a59;
   background-color: #dd7372;
-  font-size: 30px;
-  line-height: 20px;
-  float:right;
+  font-size: 20px;
+  float: right;
 }
 
 input .checkbox {
   background-color: #dd7372;
-  font-size: 400px;
-  line-height: 20px;
 }
 
-li {
-  color:gray;
-  font-size: 30px;
-  line-height: 20px;
-  display: block;
+span .strikethrough {
+  text-decoration: line-through;
+}
 
+li span {
+  color: gray;
+  font-size: 30px;
+  display: block;
+  line-height: 40px;
 }
 /*Media Queries*/
 @media only screen and (max-width: 700px) 
     }
     li {
       display: block;
-      padding-top:1em;
+      padding-top: 1em;
   }
 }
+
